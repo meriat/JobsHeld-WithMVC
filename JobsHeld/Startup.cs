@@ -36,7 +36,7 @@ namespace JobsHeld
             {
                 await context.Response.WriteAsync("Hello World!");
             });
-            app.UseDeveloperExceptionPage();
+          
         }
     }
 }
