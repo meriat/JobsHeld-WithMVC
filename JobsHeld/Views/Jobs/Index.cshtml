@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Job Summary</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1> Your Job Summary</h1>
+      </div>
+      <ul>
+        @foreach(var job in Model)
+        {
+          <li><a href='/jobs/@job.GetId()'>@job.company</a></li>
+        }
+      </ul>
+        <a href="/jobs/new">Add a new job</a>
+
+      <form action='/jobs/delete' method='post'>
+        <button class="btn btn-info" type="submit">Delete</button>
+      </form>
+    </div>
+  </body>
+</html>
