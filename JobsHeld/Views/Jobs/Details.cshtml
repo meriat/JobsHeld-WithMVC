@@ -19,8 +19,11 @@
         </ul>
         <li>Description: @Model.description</li>
       </ul>
-      <a href='/jobs/new'>Add another job</a>
-      <a href='/items'>View all jobs</a>
+      <form action='/jobs/delete/@Model.id' method='post'>
+        <button class="btn btn-warning" type="submit">Delete</button>
+      </form>
+      <a href='/jobs/new'>Add another job</a><br>
+      <a href='/jobs'>View all jobs</a>
     </div>
   </body>
 </html>

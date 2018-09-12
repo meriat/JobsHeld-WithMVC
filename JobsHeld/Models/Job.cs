@@ -1,7 +1,7 @@
 
 using System.Collections;
 using System.Collections.Generic;
-using JobsHeld.Models;
+// using JobsHeld.Models;
 
 namespace JobsHeld.Models
 {
@@ -25,13 +25,17 @@ namespace JobsHeld.Models
       _instances.Add(this);
       id = _instances.Count;
     }
-    public void Delete()
+    public static void Delete(Job newJob)
     {
-      _instances.Remove(this);
+      _instances.Remove(newJob);
     }
     public static Job Find(int searchId)
     {
       return _instances[searchId-1];
+    }
+    public static List<Job> GetAll()
+    {
+      return _instances;
     }
   }
 }

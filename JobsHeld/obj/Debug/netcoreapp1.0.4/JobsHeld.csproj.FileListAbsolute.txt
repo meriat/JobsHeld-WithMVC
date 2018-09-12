@@ -1,0 +1,8 @@
+/Users/Guest/Desktop/JobsHeld.Solution/JobsHeld/bin/Debug/netcoreapp1.0.4/JobsHeld.deps.json
+/Users/Guest/Desktop/JobsHeld.Solution/JobsHeld/bin/Debug/netcoreapp1.0.4/JobsHeld.runtimeconfig.json
+/Users/Guest/Desktop/JobsHeld.Solution/JobsHeld/bin/Debug/netcoreapp1.0.4/JobsHeld.runtimeconfig.dev.json
+/Users/Guest/Desktop/JobsHeld.Solution/JobsHeld/obj/Debug/netcoreapp1.0.4/JobsHeld.AssemblyInfo.cs
+/Users/Guest/Desktop/JobsHeld.Solution/JobsHeld/bin/Debug/netcoreapp1.0.4/JobsHeld.dll
+/Users/Guest/Desktop/JobsHeld.Solution/JobsHeld/bin/Debug/netcoreapp1.0.4/JobsHeld.pdb
+/Users/Guest/Desktop/JobsHeld.Solution/JobsHeld/obj/Debug/netcoreapp1.0.4/JobsHeld.dll
+/Users/Guest/Desktop/JobsHeld.Solution/JobsHeld/obj/Debug/netcoreapp1.0.4/JobsHeld.pdb

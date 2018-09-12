@@ -13,14 +13,11 @@
       <ul>
         @foreach(var job in Model)
         {
-          <li><a href='/jobs/@job.GetId()'>@job.company</a></li>
+          <br>
+          <li><a href='/jobs/@job.id'>@job.company</a></li>
         }
       </ul>
         <a href="/jobs/new">Add a new job</a>
-
-      <form action='/jobs/delete' method='post'>
-        <button class="btn btn-info" type="submit">Delete</button>
-      </form>
     </div>
   </body>
 </html>
